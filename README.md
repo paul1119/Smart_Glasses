@@ -9,3 +9,9 @@ yolo_ocr_v2.py is the newest version combining text detection and OCR function. 
 gestures_yolo_ocr.py, with gesture detection. An interactive way for user to give commands to glasses. 
 1. "ok", OCR
 2. "thumb up", object detection
+
+
+
+**Pipeline**
+
+Camera capture frame --> Gesture Detection --> Based on Result from Gesture Detection --> Functions (OCR, Object Detection) --> Update Results on terminal, screen...etc --> Send Result to API(chatgpt, gemini) --> Send Response to User --> Loop
