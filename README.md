@@ -14,4 +14,5 @@ gestures_yolo_ocr.py, with gesture detection. An interactive way for user to giv
 
 **Pipeline**
 
-Camera capture frame --> Gesture Detection --> Based on Result from Gesture Detection --> Functions (OCR, Object Detection) --> Update Results on terminal, screen...etc --> Send Result to API(chatgpt, gemini) --> Send Response to User --> Loop
+1. Camera capture frame --> Gesture Detection --> Based on Result from Gesture Detection --> Send Result to API(chatgpt, gemini) --> Send Response to User --> Loop  (low latency, low power, low cost)
+2. Camera capture frame --> Gesture Detection --> Based on Result from Gesture Detection --> Functions (OCR, Object Detection) --> Update Results on terminal, screen...etc --> Send Result to API(chatgpt, gemini) --> Send Response to User --> Loop
